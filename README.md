@@ -1,5 +1,17 @@
 
+While free text searching offers several benefits, there are also some risks and challenges associated with it. Here are a few potential risks to consider:
 
+1. Irrelevant or Poor Results: With free text searching, users have the freedom to enter any keywords or phrases, which can sometimes lead to irrelevant or poor search results. Users may use ambiguous or unclear search terms, resulting in inaccurate or unrelated matches.
+
+2. Misspelled or Mistyped Queries: Free text searching is susceptible to misspelled or mistyped queries. Users might make spelling errors or unintentionally enter incorrect terms, leading to incorrect or no search results.
+
+3. Offensive or Inappropriate Content: Free text searching can present challenges in filtering or moderating offensive or inappropriate content. Without predefined filters or strict control mechanisms, there is a risk of exposing users to undesirable or harmful results.
+
+4. Information Overload: Free text searching allows users to explore a wide range of possibilities, but it can also lead to information overload. Users may be overwhelmed by the number of results and struggle to find the specific information they are looking for.
+
+5. Difficulty in Structured Searching: Unlike predefined filters, free text searching doesn't provide a structured way to narrow down search results. Users may find it challenging to refine their search effectively or specify specific criteria without the guidance of predefined categories.
+
+To mitigate these risks, it's important to implement robust search algorithms that can handle natural language processing, offer relevant suggestions for misspelled queries, incorporate content moderation mechanisms, and provide effective ways to refine and filter search results. Additionally, user feedback and continuous improvement of the search functionality can help address any issues and enhance the overall search experience.
 
 One of the major benefits of free hand text searching over filter-based searching is its flexibility and adaptability. Here are some specific advantages of free hand text searching:
 
