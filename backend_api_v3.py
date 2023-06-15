@@ -52,8 +52,8 @@ def process_request():
         Q: show me all car price between 35000 and 35900 ###
         [{"id":"-9179778794217481059"}]
 
-        Q: show me all red car with mileage between 15 and 19 ###
-        [{"id":"-6701557851749527305"}] 
+        Q: show me all red car with mileage between 19000 and 20000 ###
+        [{"id":"-3271097248091618400"}]
         """,        
         """
         I am a vehicle search engine. I will search vehicle based on following json input data. The model should iterate through the input json data, look for value of the json property and if it find any match then return that particular vehicle id in json format. If it does not find any match for a request, it should return an empty json data. For example, if I search for all blue color vehicle, it should iterate through the json input data, look for exterior_color property and return if it find a value blue. Similarly, if I search for vehicle with certain mileage, it should iterate through the json data, check mileage property and compare if the requested mileage is falling into that range or not, if it find a match return the vehicle id otherwise return empty json. ###
@@ -71,8 +71,8 @@ def process_request():
         Q: show me all car price between 30000 and 31900 ###
         [{"id":"7228839190019858466"},{"id":"8695736304169807392"}]
 
-        Q: show me all red car with mileage between 15 and 19 ###
-        [{"id":"-6701557851749527305"}] 
+        Q: show me all red car with mileage between 2200 and 9000 ###
+        [{"id":"-8940977779403004093"},{"id":"-7504487931371202397"}] 
         """,
         """
         I am a vehicle search engine. I will search vehicle based on following json input data. The model should iterate through the input json data, look for value of the json property and if it find any match then return that particular vehicle id in json format. If it does not find any match for a request, it should return an empty json data. For example, if I search for all blue color vehicle, it should iterate through the json input data, look for exterior_color property and return if it find a value blue. Similarly, if I search for vehicle with certain mileage, it should iterate through the json data, check mileage property and compare if the requested mileage is falling into that range or not, if it find a match return the vehicle id otherwise return empty json. ###
@@ -90,8 +90,8 @@ def process_request():
         Q: show me all car price between 30000 and 31900 ###
         [{"id":"-3818508804481151688"},{"id":"9019879930190805016"}]
 
-        Q: show me all red car with mileage between 15 and 19 ###
-        [{"id":"-6701557851749527305"}] 
+        Q: show me all red car with mileage between 3 and 7 ###
+        [{"id":"3993379805734760269"},{"id":"2873467113239920651"}]
         """,
         """
         I am a vehicle search engine. I will search vehicle based on following json input data. The model should iterate through the input json data, look for value of the json property and if it find any match then return that particular vehicle id in json format. If it does not find any match for a request, it should return an empty json data. For example, if I search for all blue color vehicle, it should iterate through the json input data, look for exterior_color property and return if it find a value blue. Similarly, if I search for vehicle with certain mileage, it should iterate through the json data, check mileage property and compare if the requested mileage is falling into that range or not, if it find a match return the vehicle id otherwise return empty json. ###
@@ -109,8 +109,8 @@ def process_request():
         Q: show me all car price between 40000 and 41900 ###
         [{"id":"-5881422518586967268"}]
 
-        Q: show me all red car with mileage between 15 and 19 ###
-        [{"id":"-6701557851749527305"}] 
+        Q: show me all red car with mileage between 3 and 7 ###
+        [{"id":"-7056847124864636543"},{"id":"7679701090881975904"}]
         """,
         """
         I am a vehicle search engine. I will search vehicle based on following json input data. The model should iterate through the input json data, look for value of the json property and if it find any match then return that particular vehicle id in json format. If it does not find any match for a request, it should return an empty json data. For example, if I search for all blue color vehicle, it should iterate through the json input data, look for exterior_color property and return if it find a value blue. Similarly, if I search for vehicle with certain mileage, it should iterate through the json data, check mileage property and compare if the requested mileage is falling into that range or not, if it find a match return the vehicle id otherwise return empty json. ###
@@ -128,8 +128,8 @@ def process_request():
         Q: show me all car price between 30000 and 31000 ###
         [{"id":"8670322779048300255"}]
 
-        Q: show me all red car with mileage between 15 and 19 ###
-        [{"id":"-6701557851749527305"}] 
+        Q: show me all red car with mileage between 3 and 7 ###
+        [{"id":"-920339904816291716"},{"id":"8195379766243274400"}]
         """,
         """
         I am a vehicle search engine. I will search vehicle based on following json input data. The model should iterate through the input json data, look for value of the json property and if it find any match then return that particular vehicle id in json format. If it does not find any match for a request, it should return an empty json data. For example, if I search for all blue color vehicle, it should iterate through the json input data, look for exterior_color property and return if it find a value blue. Similarly, if I search for vehicle with certain mileage, it should iterate through the json data, check mileage property and compare if the requested mileage is falling into that range or not, if it find a match return the vehicle id otherwise return empty json. ###
@@ -147,8 +147,8 @@ def process_request():
         Q: show me all car price between 35000 and 31000 ###
         [{"id":"6286393223035382311"}]
 
-        Q: show me all red car with mileage between 15 and 19 ###
-        [{"id":"-6701557851749527305"}] 
+        Q: show me all red car with mileage between 27800 and 28000 ###
+        [{"id":"-8583916713322070409"}]
         """       
         ];
                   
