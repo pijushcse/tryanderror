@@ -2,8 +2,8 @@ import json
 import openai
 from flask import Flask, request, jsonify
 
-openai.api_key = "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"
-
+# openai.api_key = "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"
+openai.api_key = "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"
 def extract_ids(string):
     try:
         data = json.loads(string)
@@ -44,24 +44,28 @@ def process_request():
         Q: show me all red car with mileage between 10 and 19 ###
         [{"id":"6455081926515488390"}] 
         
-        Q: show me all new gray car 
-        [{"id":"4842373748135033396"}]
+        Q: show me all coupes
+        [{"id":"7650363564363900831"},{"id":"4492267905857148706"}]
         
         """;
     new_prompt = base_prompt + "\nQ: " + prompt + ' ###'
 
-    response = openai.Completion.create(
-        model="text-davinci-003",
-        prompt=new_prompt,
-        temperature=0.7,
+    response = openai.ChatCompletion.create(
+        # model="text-davinci-003",
+        model="gpt-3.5-turbo",
+        messages=[ # Change this
+            {"role": "assistant", "content": new_prompt}
+        ],
+        # messages="[{""role"": ""user"", ""content"": " + new_prompt + "}]",
+        temperature=0.3,
         max_tokens=100,
-        top_p=0.7,
+        top_p=1.0,
         frequency_penalty=0.0,
         presence_penalty=0.0
     )    
     print ("Response from OpenAI=",response);
     # Extract relevant information from OpenAI response
-    vechile_response = response['choices'][0]['text']
+    vechile_response = response['choices'][0]['message']['content']
     vechile_ids = extract_ids (vechile_response)
     print ("Vehicle ids=", vechile_ids)
     json_data = """
