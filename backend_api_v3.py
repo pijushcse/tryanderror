@@ -155,8 +155,8 @@ def process_request():
         vechile_ids = extract_ids (vechile_response)
         if len(vechile_ids) > 0:
             print ("Vehicle ids=", vechile_ids)
-            vechiles = find_matching_data(vechile_ids, json_data)
-            break;
+            api_response = find_matching_data(vechile_ids, json_data)
+            vechiles.extend(api_response)
             
     if len (vechiles) > 0:
         return jsonify(vechiles), 200
