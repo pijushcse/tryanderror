@@ -49,8 +49,8 @@ def process_request():
         Q: show me all black cars with mileage less than 5000 ###
         [{"id":"-5451763979061540040"}]
 
-        Q: show me all car price between 67225 and 67235 ###
-        [{"id":"-4477316342679034490"}]
+        Q: show me all car price between 35000 and 35900 ###
+        [{"id":"-9179778794217481059"}]
 
         Q: show me all red car with mileage between 15 and 19 ###
         [{"id":"-6701557851749527305"}] 
@@ -68,8 +68,8 @@ def process_request():
         Q: show me all black cars with mileage less than 5000 ###
         [{"id":"-8940977779403004093"}]
 
-        Q: show me all car price between 67225 and 67235 ###
-        [{"id":"-4477316342679034490"}]
+        Q: show me all car price between 30000 and 31900 ###
+        [{"id":"7228839190019858466"},{"id":"8695736304169807392"}]
 
         Q: show me all red car with mileage between 15 and 19 ###
         [{"id":"-6701557851749527305"}] 
@@ -87,8 +87,8 @@ def process_request():
         Q: show me all black color cars with mileage less than 10 ###
         [{"id":"-5389108213188273086"},{"id":"3435556852346856759"},{"id":"4273160759468553209"}]
 
-        Q: show me all car price between 67225 and 67235 ###
-        [{"id":"-4477316342679034490"}]
+        Q: show me all car price between 30000 and 31900 ###
+        [{"id":"-3818508804481151688"},{"id":"9019879930190805016"}]
 
         Q: show me all red car with mileage between 15 and 19 ###
         [{"id":"-6701557851749527305"}] 
@@ -106,8 +106,8 @@ def process_request():
         Q: show me all silver color cars with mileage less than 10 ###
         [{"id":"5312317162188137591"}]
 
-        Q: show me all car price between 67225 and 67235 ###
-        [{"id":"-4477316342679034490"}]
+        Q: show me all car price between 35000 and 36900 ###
+        [{"id":"4813866223681034058"}]
 
         Q: show me all red car with mileage between 15 and 19 ###
         [{"id":"-6701557851749527305"}] 
@@ -125,8 +125,8 @@ def process_request():
         Q: show me all black color cars with mileage less than 10 ###
         [{"id":"64894042540949459"},{"id":"4470715003617207161"},{"id":"-920339904816291716"},{"id":"8195379766243274400"}]
 
-        Q: show me all car price between 67225 and 67235 ###
-        [{"id":"-4477316342679034490"}]
+        Q: show me all car price between 30000 and 31000 ###
+        [{"id":"8670322779048300255"}]
 
         Q: show me all red car with mileage between 15 and 19 ###
         [{"id":"-6701557851749527305"}] 
@@ -144,8 +144,8 @@ def process_request():
         Q: show me all black cars with mileage less than 30000 ###
         [{"id":"-8583916713322070409"}]
 
-        Q: show me all car price between 67225 and 67235 ###
-        [{"id":"-4477316342679034490"}]
+        Q: show me all car price between 35000 and 36900 ###
+        [{"id":"-8583916713322070409"},{"id":"392255262899926753"}]
 
         Q: show me all red car with mileage between 15 and 19 ###
         [{"id":"-6701557851749527305"}] 
