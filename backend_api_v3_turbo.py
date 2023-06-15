@@ -1,6 +1,8 @@
 import json
 import openai
 from flask import Flask, request, jsonify
+from flask_cors import CORS, cross_origin
+
 
 # openai.api_key = "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"
 #openai.api_key = "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"
@@ -30,8 +32,11 @@ def all_data(json_data):
         return []
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route('/api', methods=['POST'])
+@cross_origin()
 def process_request():
     # Extract request data
     request_data = request.json
@@ -185,4 +190,4 @@ def process_request():
         return jsonify(all_data(json_data)), 200
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=80, debug= True)
