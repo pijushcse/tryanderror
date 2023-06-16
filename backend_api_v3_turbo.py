@@ -165,7 +165,7 @@ def process_request():
     for base_prompt in base_prompts:              
         new_prompt = base_prompt + "\nQ: " + prompt + ' ###'
         response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
+            model="gpt-3.5-turbo-16k",
             messages=[ # Change this
                 {"role": "assistant", "content": new_prompt}
             ],
