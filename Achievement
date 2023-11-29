@@ -1,15 +1,21 @@
-First AWS deployment of Finance & Drive
-Completed PT process by reviewing over 70 JIRA's for the IA's
-Deployed Auto Orchestration engine into production
-Processes an average of 1 billion events daily
-Generated engagements for 4 million auto customers
-Enabled Personalized nudges for "Approved Not Booked" and "Viewed MARS"
-Set up cloud connectivity pattern for external partners to connect to F&D APIs deployed in AWS using API gateway
-Published Kafka events for Personalized nudges to Personalization and Insights team for OVD tile display
-All team members are AWS Cloud practitioner certified
-Successfully migrated applications deployed in EKS to ECS Cluster for cost efficiency and performance optimization
-Designed and developed One-click initiative in lower environment for dynamic OVD Tile
-Successfully upgraded applications to Java 17, Photon 3.0
-Developed in-house customizable testing framework for AEOE end-to-end testing with predefined and ad hoc scenarios
-Team participated in Hackathon using OpenAI for powering Auto Marketplace searches and reached finals
-Brian & Jasmine participated in AWS Game Day 2023 and secured 2nd & 3rd positions
+First AWS deployment of Finance & Drive:
+Completed PT process by reviewing over 70 JIRA's for the lA's.
+Deployed Auto Orchestration engine into production:
+Processes an average of 1 billion events daily.
+Generated engagements for 4 million auto customers.
+Enabled Personalized nudges to customers for "Approved Not Booked" and "Viewed MARS."
+Setup cloud connectivity pattern for external partners:
+Connect to F&D API's deployed in AWS using API gateway.
+Published Kafka events for Personalized nudges to Personalization and Insights team:
+Display nudges on OVD tile.
+All team members are AWS Cloud practitioner certified.
+Successfully migrated applications deployed in EKS to ECS Cluster:
+Cost-efficient, optimized performance, and reduced maintenance.
+Designed and developed the One-click initiative in a lower environment:
+Powers the dynamic OVD Tile.
+Successfully upgraded applications to Java17, Photon 3.0.
+Developed in-house customizable testing framework for AEOE end-to-end testing:
+Predefined and ad hoc scenarios.
+Team participated in Hackathon using OpenAI for powering Auto Marketplace searches and reached the finals.
+Brian & Jasmine participated in AWS Game Day 2023:
+Placed 2nd & 3rd positions.
