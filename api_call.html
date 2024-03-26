@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Call Example</title>
+</head>
+<body>
+    <h1>API Call Example</h1>
+    
+    <button id="fetchDataBtn">Fetch Data</button>
+    
+    <div id="output"></div>
+
+    <script>
+        document.getElementById('fetchDataBtn').addEventListener('click', fetchData);
+
+        function fetchData() {
+            // Make API call
+            fetch('https://api.example.com/data')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Display data in the output div
+                document.getElementById('output').innerHTML = JSON.stringify(data, null, 2);
+            })
+            .catch(error => {
+                // Display error if any
+                document.getElementById('output').innerHTML = 'Error: ' + error.message;
+            });
+        }
+    </script>
+</body>
+</html>
